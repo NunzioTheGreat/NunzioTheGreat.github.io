@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		".current{\r\n  color: red;\r\n}\r\n"
+		".current{\r\n  color: red;\r\n}\r\n\r\nbody{\r\n  background-image: url(\"/assets/images/background.jpg\");\r\n  height: 100%;\r\n  width: 100%;\r\n\r\n}\r\n\r\n.footer {\r\n  margin-top: 30px;\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  height: 30%;\r\n  width: 100%;\r\n  position: center;\r\n  left: 0;\r\n  bottom: 0;\r\n\r\n  color: white;\r\n  text-align: center;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAA,EACN,KAAK,EAAE,GAAG,GACX"
+	"mappings": "ACAA,AAAA,QAAQ,CAAA,EACN,KAAK,EAAE,GAAG,GACX;;AAED,AAAA,IAAI,CAAA,EACF,gBAAgB,EAAE,oCAAoC,EACtD,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,GAEZ;;AAED,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,KAAK,EACd,WAAW,EAAE,IAAI,EACjB,YAAY,EAAE,IAAI,EAClB,MAAM,EAAE,GAAG,EACX,KAAK,EAAE,IAAI,EACX,QAAQ,EAAE,MAAM,EAChB,IAAI,EAAE,CAAC,EACP,MAAM,EAAE,CAAC,EAET,KAAK,EAAE,KAAK,EACZ,UAAU,EAAE,MAAM,GACnB"
 }

@@ -1,0 +1,26 @@
+<! DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>{{ page.title }}</title>
+    <link rel = "stylesheet" href = "/assets/css/styles.css"
+  </head>
+
+  <div style = "height: 10%; width: 100%">
+    {% include navigation.html %}
+  </div>
+  <body style = "display: block; margin-left: auto; margin-right: auto; height: 70%; width: 75%; color: white">
+    {% include banner.html %}
+
+    <footer class="footer">
+      <img src = "/assets/images/footer.png" usemap = "#workmap">
+
+      <map name ="workmap">
+        <area shape = "rect" coords ="0,0,201,142" href="https://www.youtube.com/channel/UCArZCWAJopVaBu-E5jMDqNw">
+        <area shape = "rect" coords ="649,0,791,142" href ="https://www.twitch.tv/nunziothegreat">
+        <area shape = "rect" coords ="1298,0,1440,142" href ="https://www.reddit.com/user/NunzioTheGreat">
+      </map>
+    </footer>
+  </body>
+
+</html>
